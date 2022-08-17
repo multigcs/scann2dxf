@@ -465,7 +465,7 @@ def scan_image(scanner_name):
     print("Device parameters:", params, "\n Resolutions %d " % (dev.resolution))
     dev.start()
     im = dev.snap()
-    im.save("test_pil.png")
+    #im.save("scann.png")
     return im
 
 
